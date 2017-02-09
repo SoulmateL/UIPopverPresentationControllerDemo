@@ -77,10 +77,10 @@
     }
 
 
--(UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller{
-    return UIModalPresentationNone; //不适配
-}
+        -(UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller{
+            return UIModalPresentationNone; //不适配
+        }
 
-- (BOOL)popoverPresentationControllerShouldDismissPopover:(UIPopoverPresentationController *)popoverPresentationController{
-    return YES;   //点击蒙版popover消失， 默认YES
-}
+        - (BOOL)popoverPresentationControllerShouldDismissPopover:(UIPopoverPresentationController *)popoverPresentationController{
+            return YES;   //点击蒙版popover消失， 默认YES
+        }
